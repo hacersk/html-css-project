@@ -14,13 +14,12 @@ h1 {
 	
 h3 {
 	font-size: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	padding-top: 3px;
 	font-family: 'Comfortaa', cursive;
 }
 
 #wrapper{
-	width: 1200px;
 	margin: 10px auto;
 }
 
@@ -38,22 +37,25 @@ header {
 	opacity: .7;
 	font-weight: 100;
 }
-article{
+#parent_article{
 	padding: 15px 0;
-	background-color: rgb(230, 232, 235);*rgb(222, 224, 227);*/
+	background-color: rgb(230, 232, 235);
+	
+}
+article {
+	margin: 25px 20px;
+	padding:5px 10px;
 }
 article p {
 	text-align: justify;
 	line-height: 1.5;
 	padding-top: 3px;
 }
-.parent_article{
+/*.parent_article{
 	margin: 25px 20px;
 	padding:5px 10px;
-
-	/*border:1px solid black;*/
-}
-.parent_article:first-child{
+}*/
+ article:first-child{
 	 box-shadow: 3px 3px 0 #c9c9c7;
 	 background-color: rgb(217, 215, 210); 
 }
